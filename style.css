@@ -1,0 +1,158 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	text-align: center;
+	background: url("images/header_bg.jpg") no-repeat center center fixed; 
+	color: white;
+	padding: 0px 0px 0px 0px;
+	display: flex, inline-block;
+	align-items: flex-start;
+	justify-content: center;
+	vertical-align: top;
+	height: 600px;
+	width: 100%;
+	margin: 0;
+	margin-bottom: 0;
+}
+
+h1 {
+	padding: 20px 0 0 100px;
+	font-size: 24px;
+	font-weight: 800;
+	text-align: left;
+	
+}
+
+h2 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	align-self: center;
+	margin-top:100px;
+}
+
+header .button {
+	width: 150px;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5%;
+	font-size: 14px;
+	font-weight: 800;
+	background-color:#f9e42e;
+	padding: 20px;
+}
+
+.benefits {
+	background-color: #f0efef;
+	width: 100%;
+	height: 600px;
+	padding-left: 200px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0;
+	margin-bottom: 0;
+	display: inline-block;
+}
+
+.benefits h3 {
+	color: #606161;
+	font-size: 20px;
+	font-weight: 600;
+	padding-top: 50px;
+}
+
+
+.benefits p {
+	padding-left: 100px; 
+	color: #606161;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.benefits ul li {
+	font-size: 13px;
+    color:#606161;
+    list-style:disc;
+    line-height: 1.2em;
+    margin-left: 100px;
+    width: 40%;
+    padding-top: 10px;  
+    font-weight: 400;
+}
+
+#quote {
+	background: url("images/testimonial_bg.jpg") no-repeat center center fixed;
+	width: 100%;
+	height: 350px;
+	color: white;
+	padding: 0px;
+	margin: 0;
+	margin-bottom: 0;
+}
+
+blockquote {
+	text-align: center;
+	padding-top: 100px;
+	font-style: italic;
+	width: 40%;
+	margin: auto;
+}
+
+#quote p {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+#calltoaction {
+	text-align: center; 
+	background-color: #f9e42e;
+	height: 150px;
+	width: auto;
+	margin: 0;
+	margin-bottom: 0;
+}
+
+#calltoaction .button {
+	width: 150px;
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 800;
+    background-color: #f9e42e;
+    margin:0 auto;
+    background-color:#033048;
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 800;
+	background-color:#121212;
+	height: 250px;
+	margin: 0;
+	margin-bottom: 0;
+}
+
+footer h4 {
+	color: #f9e42e;
+}
+
+footer ul li {
+	display: inline-block;
+	text-align: center;
+	
+}
+
+footer p {
+	font-size: 9px;
+	font-weight: 600;
+	color: white;
+}
